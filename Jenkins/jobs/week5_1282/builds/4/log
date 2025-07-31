@@ -1,0 +1,19 @@
+Started by user [8mha:////4DiZHU7HzZedt2gXi9M3m/NUUI+0y5I3L1dVp1TYTCVdAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/dLi1CL93NSSjNLs0pTMssrE4qJMADMLY/7KAAAA[0mMethukuDivyasri
+Running as SYSTEM
+Building in workspace C:\Users\Admin\Documents\22251A1282Devops\Jenkins\workspace\week5_1282
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --resolve-git-dir C:\Users\Admin\Documents\22251A1282Devops\Jenkins\workspace\week5_1282\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/Divyasri-Methuku/WEEK2.git # timeout=10
+Fetching upstream changes from https://github.com/Divyasri-Methuku/WEEK2.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.50.0.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/Divyasri-Methuku/WEEK2.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 6476dcc83eea42d39f368c14cba91204e35b43ed (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 6476dcc83eea42d39f368c14cba91204e35b43ed # timeout=10
+Commit message: "Committed all the files"
+ > git.exe rev-list --no-walk 6476dcc83eea42d39f368c14cba91204e35b43ed # timeout=10
+Finished: SUCCESS
